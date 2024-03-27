@@ -1,0 +1,48 @@
+.container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 50px
+}
+.Stats { 
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+#gameBoard{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    border: 2px solid black;
+}
+.boardElement{ 
+    border: 2px solid black;
+
+}
+
+.buttons { 
+    display: flex;
+    align-content: center;
+    gap:10px
+
+}
+
+.statsContainer {
+    display:flex; 
+    align-content: center;
+    gap:10px;
+}
+.statsContainer > div {
+    border: 2px dotted grey;
+    padding: 10px;
+}
+
+.roundStat { 
+    border: 2px solid grey;
+    color: rgb(107, 4, 4);
+}
+
+
+
+
